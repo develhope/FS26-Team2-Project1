@@ -1,0 +1,30 @@
+html{
+    background-color: aqua;
+}
+article{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    width: 30%;
+    float: left;
+    flex-basis: 400px;
+    
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+section > .logo{
+    display: flex;
+    
+}
+button{
+    padding: 5px;
+    margin: 5px;
+}
+fieldset{
+    margin: 5px;
+}
