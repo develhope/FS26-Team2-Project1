@@ -2,25 +2,18 @@ html{
     background-color: aqua;
 }
 article{
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
+    padding: 100px;
+    margin: 10px;
     display: flex;
-    width: 30%;
     float: left;
     flex-basis: 400px;
-    
+     background-color: white;     
 }
 section{
     display: flex;
-   flex-direction: row;
+    flex-direction: row;
     flex-wrap: wrap; 
-    justify-content: space-around;
-    
-}
-section > .logo{
-    display: flex;   
-
+    justify-content: space-around;  
 }
 button{
     padding: 5px;
@@ -34,4 +27,96 @@ fieldset{
     flex-wrap: wrap;
     
 }
-    
+#relative-p{
+    position: relative;
+    bottom: 80px;
+    right: 40px;
+}
+.get-started {
+    background-color: #1fc7d4;
+    color: #FFFF;
+    border-radius: 10px;
+    display: inline-flex;
+    font-size: 16px;
+    margin-right: 4px;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.trade-now {
+    background-color: #1FC7D4;
+    color: #191326;
+    position: relative;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 16px;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    height: 48px;
+}
+.play-now {
+    background-color: #812b21;
+    position: relative;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    padding: 0px 24px;
+    height: 48px;
+}
+.learn-more {
+    background-color: #FFFF;
+    color: #1FC7D4;
+    padding: 2px 4px;
+    border-radius: 8px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    height: 28px;
+    cursor: pointer;
+}
+.read-white {
+    background-color: #1fc7d4;
+    position: relative;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    height: 48px;
+}
+.try-it {
+    background-color: #1FC7D4;
+    height: 33px;
+    border-radius: 12px;
+    padding:2px 12px;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    height: 48px;
+}
