@@ -13,13 +13,14 @@ article{
 }
 section{
     display: flex;
-    flex-direction: row;
+   flex-direction: row;
     flex-wrap: wrap; 
     justify-content: space-around;
+    
 }
 section > .logo{
-    display: flex;
-    
+    display: flex;   
+
 }
 button{
     padding: 5px;
@@ -31,5 +32,6 @@ fieldset{
 .bottone{
     align-items: flex-end;
     flex-wrap: wrap;
+    
 }
     
