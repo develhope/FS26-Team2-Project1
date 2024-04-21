@@ -7,13 +7,15 @@ article{
     display: flex;
     float: left;
     flex-basis: 400px;
-     background-color: white;     
+     background-color: white;   
+     position: relative;
 }
 section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    justify-content: space-around;  
+    justify-content: space-around;
+      
 }
 button{
     padding: 5px;
@@ -28,9 +30,9 @@ fieldset{
     
 }
 #relative-p{
-    position: relative;
-    bottom: 80px;
-    right: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 .get-started {
     background-color: #1fc7d4;
@@ -119,4 +121,29 @@ fieldset{
     letter-spacing: 0.03em;
     line-height: 1.5;
     height: 48px;
+}
+.footer_container_list--icons {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Stili per il titolo "Icons" /
+.footer_container_list--icons h2 {
+    margin-bottom: 0.5rem;
+}
+
+/ Stili per le icone */
+.footer-icons {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: auto;
 }
