@@ -21,16 +21,10 @@ button{
     padding: 5px;
     margin: 5px;
 }
-.bottone{
-    align-items: flex-end;
-    flex-wrap: wrap;
-    
-}
 .icons{
     display: flex;
     max-width: 150px;
     max-height: 100px;
-    justify-content: left;
 }
 #relative-p{
     position: absolute;
@@ -41,12 +35,9 @@ button{
     background-color: #1fc7d4;
     color: #FFFF;
     border-radius: 10px;
-    display: inline-flex;
     font-size: 16px;
     margin-right: 4px;
-    line-height: 1.5;
     font-weight: 600;
-    letter-spacing: 0.04em;
     height: 48px;
     justify-content: center;
     align-items: center;
@@ -60,12 +51,9 @@ button{
     align-items: center;
     border-radius: 16px;
     cursor: pointer;
-    display: inline-flex;
     font-weight: 600;
     font-size: 16px;
     justify-content: center;
-    letter-spacing: 0.03em;
-    line-height: 1.5;
     height: 48px;
 }
 .play-now {
@@ -75,8 +63,6 @@ button{
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: 0.03em;
-    line-height: 1.5;
     padding: 0px 24px;
     height: 48px;
 }
@@ -88,7 +74,6 @@ button{
     height: auto;
     position: relative;
     align-items: center;
-    display: inline-flex;
     font-size: 16px;
     font-weight: 600;
     justify-content: center;
@@ -101,12 +86,9 @@ button{
     align-items: center;
     border-radius: 16px;
     cursor: pointer;
-    display: inline-flex;
     font-size: 16px;
     font-weight: 600;
     justify-content: center;
-    letter-spacing: 0.03em;
-    line-height: 1.5;
     height: 48px;
 }
 .try-it {
@@ -117,14 +99,37 @@ button{
     position: relative;
     align-items: center;
     cursor: pointer;
-    display: inline-flex;
     font-size: 16px;
     font-weight: 600;
     justify-content: center;
-    letter-spacing: 0.03em;
-    line-height: 1.5;
     height: 48px;
 }
+.connect-wallet {
+    position: relative;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #1FC7D4;
+    color: #191326;
+    justify-content: center;
+    height: 32px;
+}
+.connect-home {
+    position: relative;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    height: 48px;
+    background-color: #1fc7d4;
+    color: #191326;
+    
+}
+
 .footer_container_list--icons {
     list-style-type: none;
     display: flex;
@@ -150,7 +155,6 @@ button{
 
 .footer-icons img {
     width: 30px;
-    height: auto;
 }
 .colors {
     display: flex;
