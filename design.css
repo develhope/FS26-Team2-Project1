@@ -1,5 +1,5 @@
 html{
-    background-color: aqua;
+    background-color: #b8add2;
 }
 article{
     padding: 100px;
@@ -9,13 +9,26 @@ article{
     flex-basis: 400px;
      background-color: white;   
      position: relative;
+     border-radius: 20px;
+     max-width: 1000px;
+
 }
 section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    justify-content: center;
-      
+    justify-content: center;      
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    max-height: 400px;
+}
+.button{
+    display: flex;
+    max-width: 300px;
+    max-height: 250px;
 }
 button{
     padding: 5px;
@@ -26,10 +39,80 @@ button{
     max-width: 150px;
     max-height: 100px;
 }
+.color{
+display: flex;
+max-height: 300px;
+}
+.typography{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    font-family:'Kanit', sans-serif;
+    width: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+nav {
+    font-size: inherit;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f4eeff;
+    margin: 10px;
+}
+.nav{
+    font-size: inherit;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color:  #f4eeff;
+    margin: 15px;
+    padding: 10px;
+}
+.tipography > p {
+    font-weight: 600;
+    color: red;
+}
+main {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #f4eeff;
+    margin: 15px;
+}
+.a {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #f4eeff;
+    margin: 15px;
+}
+.b{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #f4eeff;
+    margin: 15px;
+}
+.c{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #f4eeff;
+    margin: 15px;
+}
+em {
+    color: #191326;
+    font-weight: 400;
+}
+b {
+    text-transform: uppercase;
+    text-decoration: overline;
+}
 #relative-p{
     position: absolute;
     top: 10px;
     left: 10px;
+    font-family: "kanit";-
 }
 .get-started {
     background-color: #1fc7d4;
