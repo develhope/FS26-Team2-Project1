@@ -1,0 +1,147 @@
+body {
+    background-color: #21193a; 
+    font-family: 'Kanit', sans-serif;
+}
+.e {
+    color: #f4eeff;
+    font-size: 32px;
+    font-weight: 600;
+} @media screen and (min-width: 576px){
+    .e {
+        font-size: 40px;
+    }
+} @media screen and (min-width: 968px){
+    .e {
+        font-size: 64px;
+    }
+}
+.f{
+    display: inline;
+    color: #a881fc;
+    font-size: 32px;
+    font-weight: 600;
+} @media screen and (min-width: 576px){
+    .f {
+        font-size: 40px;
+    }
+} @media screen and (min-width: 968px){
+    .f {
+        font-size: 64px;
+    }
+}
+.d {
+    display: inline;
+    color: #f4eeff;
+    font-size: 32px;
+    font-weight: 600;
+} @media screen and (min-width: 576px){
+    .d {
+        font-size: 40px;
+    }
+} @media screen and (min-width: 968px){
+    .d {
+        font-size: 64px;
+    }
+}
+.t {
+    color: #b8add2;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    line-height: 110%;
+    max-width: 600px;
+    text-align: left;
+} @media screen and (min-width: 852px) {
+        .t {
+            font-size: 24px;
+        }
+    } @media screen and (min-width: 370px) {
+        .t {
+            font-size: 20px;
+        }
+    }
+#connect-wallet {
+    border-radius: 16px;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    justify-content: center;
+    line-height: 1;
+    height: 48px;
+    background-color: #1fc7d4;
+    color: #191326;
+    padding: 24px;
+}
+#connect-wallet:hover {
+    opacity: 68%;
+    transition-duration: 0.2s;
+}
+#trade-now {
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1fc7d4;
+    color: #1fc7d4;
+    border-radius: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    height: 48px;
+    padding: 24px;
+    background-color: transparent;
+    box-shadow: none;
+}
+#trade-now:hover {
+    opacity: 68%;
+    transition-duration: 0.2s;
+}
+.home-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: fit-content;
+}
+
+/* .svg, .vid-rubb {
+    flex: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    justify-content: space-between;
+}
+.svg-two {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 24px;
+} */
+.vid-rubb{
+    position: absolute;
+    justify-content: space-between;
+    width: 50%;
+}
+.efd {
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 80px;
+    line-height: 1.2;
+    
+}
+/* .home-body {
+    display: flex;
+    max-width: 200%;
+} */
+/* .home-icn {
+    display: flex;
+} */
