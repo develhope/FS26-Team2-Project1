@@ -1,3 +1,6 @@
+html{
+    background-color: blue;
+}
 .calcoloDiGuadagno {
     float: left;
     width: 50%;
@@ -7,8 +10,48 @@
   .fornituraCircolare {
     border-right: 1px solid #000;
     padding-right: 20px;
+    padding-right: 20px;
   }
   .fornituraTotale {
     border-right: 1px solid #000;
     padding-left: 20px;
+    padding-right: 20px;
   }
+  .CapDiMercato{
+    border-right: 1px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .BruciaturaToken{
+    border-right: 1px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .EmissioniAttuali{
+    border-right: 1px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .CAKECifre{
+    display: inline-flex;
+  }
+  .cake{
+    display: inline-flex;
+  }
+  .bloccaCAKE{
+    padding: 100px;
+  }
+  .dati{
+    color: blueviolet;
+  }
+  .headCake{
+    text-align: center;
+  }
+  .bvWImD {
+    align-self: center;
+    fill: #1fc7d4 var(--colors-primary);
+    color: #1fc7d4 var(--colors-primary);
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    width: 10px;
+}
