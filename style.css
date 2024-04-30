@@ -1,0 +1,14 @@
+.calcoloDiGuadagno {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex inline;
+  }
+  .fornituraCircolare {
+    border-right: 1px solid #000;
+    padding-right: 20px;
+  }
+  .fornituraTotale {
+    border-right: 1px solid #000;
+    padding-left: 20px;
+  }
