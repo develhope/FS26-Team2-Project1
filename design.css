@@ -100,6 +100,7 @@ body {
     padding: 24px;
     background-color: transparent;
     box-shadow: none;
+    margin-left: 5px;
 }
 #trade-now:hover {
     opacity: 68%;
@@ -112,36 +113,110 @@ body {
     max-width: fit-content;
 }
 
-/* .svg, .vid-rubb {
-    flex: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: transparent;
-    justify-content: space-between;
-}
-.svg-two {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin-bottom: 24px;
-} */
 .vid-rubb{
     position: absolute;
     justify-content: space-between;
     width: 50%;
+}
+.video {
+    position: absolute;
+    justify-content: space-between;
+    width: 50%;
+}
+.svg{
+    margin-top: -250px;
 }
 .efd {
     flex: 1;
     margin-top: 100px;
     margin-left: 80px;
     line-height: 1.2;
-    
 }
-/* .home-body {
+
+.home-body2, .home2-content {
+    background: linear-gradient(180deg, #09070c 22%, #201335 100%);
+    margin-top: -8px;
+}
+
+.shaping {
+    color: #f4eeff;
+    margin-bottom: 4px;
+    text-align: center;
+    line-height: 110%;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 100px;
+}
+.pancakeswap {
+    color: #f4eeff;
+    margin-bottom: 4px;
+    text-align: center;
+    line-height: 110%;
+    font-weight: 600;
+    font-size: 32px;
+    padding-block-end: 50px;
+}
+.tot-container {
     display: flex;
-    max-width: 200%;
-} */
-/* .home-icn {
-    display: flex;
-} */
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    gap: 50px;
+}
+.tot-user {
+    color: #f4eeff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120%;
+}
+.nmb1 {
+    color: #a881fc;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 110%;
+}
+.sub1{
+    color: #b8add2;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+}
+.tot-trades {
+    color: #f4eeff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120%;
+}
+.nmb2 {
+    color: #a881fc;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 110%;
+}
+.sub2{
+    color: #b8add2;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+}
+.tot-value {
+    color: #f4eeff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 120%;
+}
+.nmb3 {
+    color: #a881fc;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 110%;
+}
+
