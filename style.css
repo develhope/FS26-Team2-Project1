@@ -9,31 +9,32 @@ html{
   }
   .fornituraCircolare {
     border-right: 1px solid #000;
-    padding-right: 20px;
-    padding-right: 20px;
+    padding-right: 15%;
+    padding-right: 15%;
   }
   .fornituraTotale {
     border-right: 1px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .CapDiMercato{
     border-right: 1px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .BruciaturaToken{
     border-right: 1px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15%;
+    padding-right:15%;
   }
   .EmissioniAttuali{
     border-right: 1px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .CAKECifre{
     display: inline-flex;
+ 
   }
   .cake{
     display: inline-flex;
@@ -54,4 +55,9 @@ html{
     flex-shrink: 0;
     margin-left: 0.5rem;
     width: 10px;
+}
+.datiCake{
+  display: inline-flex;
+  padding: 20px;
+ align-self: center;
 }
