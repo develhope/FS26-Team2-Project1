@@ -219,4 +219,218 @@ body {
     text-align: center;
     line-height: 110%;
 }
+.container-main{
+    width: 100%;
+    background: linear-gradient(180deg, #201335 100%, #09070c 22%);
+}
+.container-first { 
+    width: 56%;
+    /* margin-top: 2%; */
+}
+.container {
+    left: 40%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    mask-image: linear-gradient(to left, transparent, black 80px, black calc(100% - 80px), transparent);
+}
+.slider {
+    display: flex;
+    max-width: 100%;
+    transition: transform 1s ease;
+    /* animation: scroll 1s linear infinite; */
+    gap: 6px;   
+    
+}
 
+.slider {animation: scroll 25s linear 0s infinite;}
+     /* {animation: scroll 5s linear 0s infinite;} */
+     @keyframes scroll {
+     0% {
+     transform: translateX(0%);}
+
+     100% {
+    transform: translateX(-100%);
+}}
+
+
+    /*@keyframes utilizzo con animation: slide-animation 5s linear infinite; */
+    /* animation-iteration-count: infinite; */
+    /* transition-duration: 1s; ease */
+    /* keyframes transform-x/y  
+    --------------------------------------
+    .slider{animation: scroll 32s linear 0s infinite;}
+
+     @keyframes scroll {
+     0% {
+     transform: translateX(0%);}
+
+     100% {
+   transform: translateX(-100%);
+}
+}*/
+
+.slide {
+    padding: 6px 12px;
+    /* flex: 0 0 15%; */
+    border-radius: 25px;
+    border: 0px;
+    height: 30px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+.slide-svg {
+    margin-right: -10%;
+    padding-top: 2%;
+}
+.slide-linea{
+    background-color: #81d8ea;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 10%;
+}
+.slide-base {
+    background-color: #75a1ff;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 10%;
+}
+.slide-bnb {
+    background-color: #f0b90b;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 13%;
+}
+.slide-opbnb{
+    background-color: #333333;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 15%;
+}
+.slide-aptos{
+    background-color: #17ba92;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 11%;
+}
+.slide-ethereum{
+    background-color: #627ad8;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 14%;
+}
+.slide-polygon{
+    background-color: #ad73de;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 18%;
+}
+.slide-zksync{
+    background-color: #686ea7;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 14%;
+}
+.slide-arbitrum{
+    background-color: #6e89ae;
+    margin-right: 8px;
+    border-radius: 25px;
+    flex: 0 0 15%;
+}
+.linea {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.base {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.bnb {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.opbnb{
+    color: rgb(240, 185, 11);
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.aptos {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.ethereum {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.polygon {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.zksync {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.arbitrum {
+    color: #191326;
+    line-height: 1.5;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.slide-svg {
+    padding-right: 10%;
+    margin-top: 2%;
+}
+.svg-border {
+    width: 100%;
+    height: 100%;
+}
+.svg-yellow {
+    margin-top: -27%;
+    margin-left: 3%;
+    height: 10px;
+    max-width: 100%;
+}
+.svg-purple {
+    /* margin-left: 90%; */
+    max-width: 100%;
+}
+.svg-green {
+    margin-left: 137%;
+    margin-top: -55%; 
+    max-width: 100%;
+}
+.img-yellow {
+    width: 14%;
+}
+.img-purple {
+    width: 14%;
+}
