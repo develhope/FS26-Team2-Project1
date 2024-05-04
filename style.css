@@ -1,5 +1,11 @@
 html{
-    background-color: blue;
+    background-color: black;
+}
+*{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  font-weight: 600;
 }
 .calcoloDiGuadagno {
     float: left;
@@ -8,56 +14,164 @@ html{
     display: flex inline;
   }
   .fornituraCircolare {
-    border-right: 1px solid #000;
-    padding-right: 15%;
-    padding-right: 15%;
+    border-right: 1px solid white;
+    padding-right: 2%;
   }
   .fornituraTotale {
-    border-right: 1px solid #000;
-    padding-left: 15%;
-    padding-right: 15%;
+    border-right: 1px solid white;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .CapDiMercato{
-    border-right: 1px solid #000;
-    padding-left: 15%;
-    padding-right: 15%;
+    border-right: 1px solid white;
+    padding-left: 2%;
+    padding-right: 2%;
+
   }
   .BruciaturaToken{
-    border-right: 1px solid #000;
-    padding-left: 15%;
-    padding-right:15%;
+    border-right: 1px solid white;
+    padding-left: 2%;
+    padding-right:2%;
   }
   .EmissioniAttuali{
-    border-right: 1px solid #000;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 2%;
   }
   .CAKECifre{
     display: inline-flex;
- 
+    margin-top: 8%;
+    font-size: 24px;
+    margin-bottom: 2%;
   }
   .cake{
     display: inline-flex;
+    font-size: 32px;
+  }
+  .titleCake{
+    font-size: 32px;
   }
   .bloccaCAKE{
-    padding: 100px;
+    border-radius: 16px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    justify-content: center;
+    line-height: 1;
+    height: 48px;
+    color: #1fc7d4;
+    background-color: #191326;
+    border-color: #1fc7d4;
+    
+  }
+  .bloccaCAKE :hover{
+    opacity: 68%;
+  transition-duration: 0.2s;
   }
   .dati{
     color: blueviolet;
+    font-size: 26px;
+    font-weight: bolder;
   }
   .headCake{
     text-align: center;
   }
   .bvWImD {
     align-self: center;
-    fill: #1fc7d4 var(--colors-primary);
+    fill: #1fc7d4;
     color: #1fc7d4 var(--colors-primary);
     flex-shrink: 0;
     margin-left: 0.5rem;
-    width: 10px;
+    width: 20px;
 }
 .datiCake{
-  display: inline-flex;
+  display: flex;
   padding: 20px;
- align-self: center;
+ flex-grow: 1;
+ align-items: center;
+ justify-content: center;
+}
+.buyCake{
+  border-radius: 16px;
+  align-items: center;
+  border: 0px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  line-height: 1;
+  height: 48px;
+  background-color: #1fc7d4;
+  color: #191326;
+  padding: 24px;
+}
+.buyCake :hover {
+  opacity: 68%;
+  transition-duration: 0.2s;
+}
+.scopriDiPiu{
+  border-radius: 16px;
+  align-items: center;
+  border: 0px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  line-height: 1;
+  height: 48px;
+  padding: 24px;
+}
+.scopriDiPiu :hover{
+  opacity: 68%;
+  transition-duration: 0.2s;
+}
+.nomeDati{
+  display: inline-flex;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.moneta{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.65);
+  background-color: transparent;
+}
+.svgMoneta{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.staking{
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+ 
+}
+.arp{
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.ecosistema{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+.partner{
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
 }
