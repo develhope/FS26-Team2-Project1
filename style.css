@@ -4,37 +4,43 @@ body {
 }
 .e {
     color: #f4eeff;
-    font-size: 32px;
+    font-size: 85px;
     font-weight: 600;
-} @media screen and (min-width: 576px){
+} 
+/* @media screen and (min-width: 576px){
     .e {
         font-size: 40px;
     }
-} @media screen and (min-width: 968px){
+} 
+@media screen and (min-width: 968px){
     .e {
         font-size: 64px;
     }
-}
+} */
 .f{
     display: inline;
     color: #a881fc;
-    font-size: 32px;
+    font-size: 85px;
     font-weight: 600;
-} @media screen and (min-width: 576px){
+} 
+/* @media screen and (min-width: 576px){
     .f {
         font-size: 40px;
     }
-} @media screen and (min-width: 968px){
+} 
+@media screen and (min-width: 968px){
     .f {
         font-size: 64px;
     }
-}
+} */
 .d {
     display: inline;
     color: #f4eeff;
-    font-size: 32px;
+    font-size: 85px;
     font-weight: 600;
-} @media screen and (min-width: 576px){
+    padding-left: 1%;
+}
+ /* @media screen and (min-width: 576px){
     .d {
         font-size: 40px;
     }
@@ -42,16 +48,17 @@ body {
     .d {
         font-size: 64px;
     }
-}
+} */
 .t {
     color: #b8add2;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 24px;
     line-height: 110%;
     max-width: 600px;
     text-align: left;
-} @media screen and (min-width: 852px) {
+}
+ /* @media screen and (min-width: 852px) {
         .t {
             font-size: 24px;
         }
@@ -59,7 +66,7 @@ body {
         .t {
             font-size: 20px;
         }
-    }
+    } */
 #connect-wallet {
     border-radius: 16px;
     align-items: center;
@@ -116,20 +123,48 @@ body {
 .vid-rubb{
     position: absolute;
     justify-content: space-between;
-    width: 50%;
+    width: 45%;
 }
+.vid-rubb{animation: shake 7s infinite;}
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0); }
+    10% { transform: translate(-15px, -15px) rotate(-0deg); }
+}
+ /* @media screen and (min-width:576px) {
+    .vid-rubb {
+        width: 500px;
+        height: 500px;
+        transform-origin: center center;
+
+    }} */
 .video {
     position: absolute;
     justify-content: space-between;
-    width: 50%;
-}
+    width: 40%;
+    animation: ripple 1.5s linear infinite;
+} 
+/* RESPONSIVITA PROVA 1 */
+/* @media screen and (min-width:576px) {
+    .video {
+        width: 500px;
+        height: 500px;
+        transform-origin: center center;
+
+    }} */
+.video {animation: ripple 10s linear infinite;} 
+    @keyframes ripple {
+        0% { transform: scale(1);}
+        50% { transform: scale(1.1);}
+    }
 .svg{
-    margin-top: -250px;
-}
+    margin-top: -150px;
+    margin-left: -70px;
+} 
+/* FINE PROVA */
 .efd {
     flex: 1;
-    margin-top: 100px;
-    margin-left: 80px;
+    margin-top: 195px;
+    margin-left: 200px;
     line-height: 1.2;
 }
 
@@ -238,20 +273,20 @@ body {
 .slider {
     display: flex;
     max-width: 100%;
-    transition: transform 1s ease;
+    /* transition: transform 1s ease; */
     /* animation: scroll 1s linear infinite; */
     gap: 6px;   
     
 }
 
-.slider {animation: scroll 25s linear 0s infinite;}
+.slider {animation: scroll 30s linear 0s infinite;}
      /* {animation: scroll 5s linear 0s infinite;} */
      @keyframes scroll {
      0% {
-     transform: translateX(0%);}
+     transform: translateX(5%);}
 
      100% {
-    transform: translateX(-100%);
+    transform: translateX(-200%);
 }}
 
 
@@ -304,13 +339,13 @@ body {
     background-color: #f0b90b;
     margin-right: 8px;
     border-radius: 25px;
-    flex: 0 0 13%;
+    flex: 0 0 18%;
 }
 .slide-opbnb{
     background-color: #333333;
     margin-right: 8px;
     border-radius: 25px;
-    flex: 0 0 15%;
+    flex: 0 0 22%;
 }
 .slide-aptos{
     background-color: #17ba92;
@@ -328,19 +363,19 @@ body {
     background-color: #ad73de;
     margin-right: 8px;
     border-radius: 25px;
-    flex: 0 0 18%;
+    flex: 0 0 26%;
 }
 .slide-zksync{
     background-color: #686ea7;
     margin-right: 8px;
     border-radius: 25px;
-    flex: 0 0 14%;
+    flex: 0 0 20%;
 }
 .slide-arbitrum{
     background-color: #6e89ae;
     margin-right: 8px;
     border-radius: 25px;
-    flex: 0 0 15%;
+    flex: 0 0 25%;
 }
 .linea {
     color: #191326;
@@ -409,7 +444,7 @@ body {
     padding-right: 10%;
     margin-top: 2%;
 }
-.svg-border {
+/* .svg-border {
     width: 100%;
     height: 100%;
 }
@@ -420,7 +455,6 @@ body {
     max-width: 100%;
 }
 .svg-purple {
-    /* margin-left: 90%; */
     max-width: 100%;
 }
 .svg-green {
@@ -433,4 +467,4 @@ body {
 }
 .img-purple {
     width: 14%;
-}
+} */
