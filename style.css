@@ -148,10 +148,11 @@ html{
   background-color: transparent;
 }
 .svgMoneta{
-  position: relative;
-  width: 300px;
-  height: 300px;
+ position: relative;
+  width: 400px;
+  height: 400px;
   overflow: hidden;
+
 }
 .staking{
   font-size: 40px;
@@ -175,4 +176,7 @@ html{
   font-size: 40px;
   font-weight: 600;
   color: white;
+}
+.moneta{
+
 }
