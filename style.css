@@ -95,7 +95,7 @@ body {
     display: block;
     position: absolute;
     justify-content: space-between;
-    max-width: 650px;
+    max-width: 43%;
     width: 100%;
 }
 .vid-rubb{animation: shake 7s infinite;}
@@ -106,7 +106,7 @@ body {
 .video {
     position: absolute;
     justify-content: space-between;
-    width: 570px;
+    width: 37%;
     animation: ripple 1.5s linear infinite;
 } 
 .video {animation: ripple 10s linear infinite;} 
@@ -535,14 +535,171 @@ body {
     margin-left: 500%;
 }
 
+@media screen and (min-width: 168px) and (max-width:568px) {
+    .e {
+        font-size: 40px;
+    }
+    .f {
+        font-size: 40px;
+    }
+    .d {
+        font-size: 40px;
+    }
+    .t {
+        font-size: 20px;
+        text-align: center;
+    }
+    .efd {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 70%;
+        }
+    .vid-rubb {
+        margin-left: -65%;
+        margin-top: -7%;
+        width: 65%;
+        height: 35%;
+    }
+    .video {
+        margin-left: -70%;
+        margin-top: -30%;
+        width: 45%;
+        height: 65%;
+    }
+    .wave-container {
+        margin-left: -2%;
+        margin-right: -1.5%;
+    }
+    .home-body{
+        margin-top: -8%;
+        height: 100%;
+        width: 100%;
+    }
+    .shaping {
+        font-size: 20px;
+    }
+    .pancakeswap {
+        font-size: 20px;
+    }
+    .tot-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .tot-user {
+        font-size: 15px;
+    }
+    .tot-trades {
+        font-size: 15px;
+    }
+    .tot-value {
+        font-size: 15px;
+    }
+    .nmb {
+        font-size: 30px;
+    }
+    .sub {
+        font-size: 13px;
+    }
+    .word {
+        font-size: 15px;
+    }
+    .svg-yellow {
+        display: none;
+    }
+    .svg-green {
+        display: none;
+    }
+    .svg-purple {
+        display: none;
+    }
+    .word {
+        font-size: 17px;
+    }
+    .slide {
+        padding: 6px 12px;
+        border-radius: 25px;
+        border: 0px;
+        height: 23px;
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+        margin-right: 4px;
+        border-radius: 25px;
+    }
+    .slide-svg {
+        margin-top: 5px;
+    }
+    .slide-linea{
+        background-color: #81d8ea;
+        flex: 0 0 10%;
+    }
+    .slide-base {
+        background-color: #75a1ff;
+        flex: 0 0 10%;
+    }
+    .slide-bnb {
+        background-color: #f0b90b;
+        flex: 0 0 28%;
+    }
+    .slide-opbnb{
+        background-color: #333333;
+        flex: 0 0 32%;
+    }
+    .slide-aptos{
+        background-color: #17ba92;
+        flex: 0 0 11%;
+    }
+    .slide-ethereum{
+        background-color: #627ad8;
+        flex: 0 0 14%;
+    }
+    .slide-polygon{
+        background-color: #ad73de;
+        flex: 0 0 36%;
+    }
+    .slide-zksync{
+        background-color: #686ea7;
+        flex: 0 0 30%;
+    }
+    .slide-arbitrum{
+        background-color: #6e89ae;
+        flex: 0 0 35%;
+    }
+    .slider {
+        display: flex;
+        max-width: 100%;
+        gap: 6px;           
+    }
+    .slider {animation: scroll 27s linear 0s infinite;}
+     @keyframes scroll {
+     0% {
+     transform: translateX(-3%);}
 
-@media screen and (max-width: 568px) {
-  /* .e {
-    
-  } */
+     100% {
+    transform: translateX(-300%);
+}}
+    .container {
+       left: 1%;
+       display: flex;
+       flex-direction: row;
+       overflow: hidden;
+       position: relative;
+       mask-image: linear-gradient(to left, transparent, black 80px, black calc(100% - 80px), transparent);
+}   
+    .container-first { 
+       width: 100%;
 }
-
-@media screen and (min-width:569px) and (max-width: 1024px) {
+.home-body2, .home2-content {
+    background: linear-gradient(180deg, #09070c 22%, #201335 100%);
+    margin-top: -8px;
+    width: 101.8%;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+}
+@media screen and (min-width:569px) {
   .e {
     font-size: 60px;
   }
@@ -555,20 +712,26 @@ body {
   .t {
     padding-top: 10px;
     font-size: 24px;
-
+    width: 75%;
   }
   .efd {
     margin-left: 6%;
     margin-top: 38%;
   }
   .vid-rubb {
-    width: 550px;
-    margin-left: -7%;
+    width: 55%;
+    margin-left: -10%;
+    margin-top: 7%;
   }
   .video {
-    width: 450px;
-    margin-left: -7%;
-    height: 500px;
+    width: 51%;
+    margin-left: -17%;
+    margin-top: 10%;
+    height: 58%;
+  }
+  .home-body {
+    width: 70%;
+    margin-top: -10%;
   }
   .shaping {
     margin-top: -8px;
@@ -582,12 +745,91 @@ body {
   .img-yellow {
     display: none;
   }
-
+  .word {
+    font-size: 15px;
 }
+.svg-yellow {
+    display: none;
+}
+.svg-green {
+    display: none;
+}
+.svg-purple {
+    display: none;
+}
+.word {
+    font-size: 17px;
+}
+.slide {
+    padding: 10px 12px;
+    border-radius: 25px;
+    border: 0px;
+    height: 23px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-right: 4px;
+    border-radius: 25px;
+}
+.slide-svg {
+    margin-top: 5px;
+}
+.slide-linea{
+    background-color: #81d8ea;
+    flex: 0 0 10%;
+}
+.slide-base {
+    background-color: #75a1ff;
+    flex: 0 0 10%;
+}
+.slide-bnb {
+    background-color: #f0b90b;
+    flex: 0 0 22%;
+}
+.slide-opbnb{
+    background-color: #333333;
+    flex: 0 0 25%;
+}
+.slide-aptos{
+    background-color: #17ba92;
+    flex: 0 0 11%;
+}
+.slide-ethereum{
+    background-color: #627ad8;
+    flex: 0 0 14%;
+}
+.slide-polygon{
+    background-color: #ad73de;
+    flex: 0 0 26%;
+}
+.slide-zksync{
+    background-color: #686ea7;
+    flex: 0 0 21%;
+}
+.slide-arbitrum{
+    background-color: #6e89ae;
+    flex: 0 0 25%;
+}
+.slider {
+    display: flex;
+    max-width: 100%;
+    gap: 6px;           
+}
+.slider {animation: scroll 47s linear 0s infinite;}
+     /* {animation: scroll 5s linear 0s infinite;} */
+     @keyframes scroll {
+     0% {
+     transform: translateX(-3%);}
 
-/* Terza media query */
-/* @media screen and (min-width: 1025px) {
-      .e {
-    font-size: 18px;
-  }
-} */
+     100% {
+    transform: translateX(-400%);
+}}
+.container {
+    left: 5%;
+}
+.container-first { 
+    width: 90%;
+}
+}
