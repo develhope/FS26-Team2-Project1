@@ -362,18 +362,30 @@ body {
 .container-svg-border {
     display: flex;
 }
+.svg-yellow {
+    width: 100%;
+    flex: 1 0 103.3%;
+    /* margin-top: -150%; */
+}
+.svg-purple {
+    width: 100%;
+}
 .img-yellow {
-    width: 70%;
-    margin-top: -100%;
+    position: absolute;
+    width: 10%;
+    margin-top: -15%;
 }
 .img-purple {
-    width: 60%;
-    margin-top: -100%;
-    margin-left: 385%;
-}
-.img-green {
-    width: 50%;
-    margin-left: 500%;
+    position: absolute;
+    width: 8%;
+    margin-left: 16.8%;
+    margin-top: -20%;
+} 
+ .img-green {
+    position: absolute;
+    width: 6%;
+    margin-top: -20%;
+    margin-left: 10%;
 }
 
 @media screen and (min-width: 168px) and (max-width:568px) {
