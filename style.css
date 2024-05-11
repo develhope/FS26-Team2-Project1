@@ -166,16 +166,20 @@ html{
   margin-bottom: 16px;
 }
 .ecosistema{
-  font-size: 40px;
+  font-size: 34px;
   display: flex;
   justify-content: flex-start;
   color: white;
 }
 .partner{
-  font-size: 40px;
+  font-size: 34px;
   display: flex;
   justify-content: flex-start;
   color: white;
+}
+.nomeSvg{
+  display: flex;
+    flex-direction: column;
 }
 .lineaSepS{
   position: absolute;
@@ -188,8 +192,7 @@ html{
   .lineaSepS{
   width: 1px;
   height: 40%;
-  bottom: auto;
-  left: 32%;
+
 }
 }
 .lineaSepD{
@@ -203,8 +206,7 @@ html{
   .lineaSepD{
   width: 1px;
   height: 40%;
-  bottom: auto;
-  right: 32%;
+
 }
 }
 .lineaSepSotto{
@@ -224,6 +226,8 @@ html{
 }
 .rettangoloEcosistema{
   width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .rettangoloMoneta{
@@ -231,6 +235,8 @@ html{
 }
 .rettangoloPartner{
   width: 20%;
+  display: flex;
+ flex-direction: row;
 }
 .bloccoSvg{
   display: flex;
@@ -240,32 +246,53 @@ html{
 }
 
   .rfm-marquee-container {
-    overflow-x: hidden;
+   /* overflow-x: hidden;*/
     display: flex;
-    flex-direction: row;
-    position: relative;
-    width: var(--width);
-    transform: var(--transform);
+    flex-direction: column;
+    background-color: aqua;
+   /* position: relative;
+   /* width: var(--width);
+    transform: var(--transform);*/
+    overflow: hidden;
+    width: 80%;
 }
 
 .rfm-marquee {
-  flex: 0 0 auto;
+ /* flex: 0 0 auto;
   min-width: var(--min-width);
-  z-index: 1;
+  z-index: 1;*/
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+ /* align-items: center;
   animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
   animation-play-state: var(--play);
   animation-delay: var(--delay);
-  animation-direction: var(--direction);
+  animation-direction: var(--direction);*/
+  width: 300%; 
+  animation: scroll 10s linear infinite;
 }
 .rfm-initial-child-container {
-  flex: 0 0 auto;
+ /* flex: 0 0 auto;*/
   display: flex;
   min-width: auto;
-  flex-direction: row;
+  flex-direction: column;
+ /* align-items: center;*/
+  width: 100%;
+}
+.sc-kIJRjt{
+  flex: 1;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  height: 200px;
+}
+@keyframes scroll {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-100%);
+  }
 }
 .cFzdnc {
   display: flex;
@@ -436,6 +463,7 @@ html{
   width: fit-content;
   margin-bottom: 21px;
   margin-right: 16px;
+  border: ;
 }
 .euVZBl {
   display: flex;
@@ -453,10 +481,4 @@ html{
   width: fit-content;
   margin-bottom: 21px;
   margin-right: 16px;
-}
-.sc-kIJRjt{
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
