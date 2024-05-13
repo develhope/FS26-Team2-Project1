@@ -141,7 +141,7 @@ body {
     font-size: 32px;
     padding-top: 100px;
 }
-.pancakeswap {
+.pancakeswap-home {
     color: #f4eeff;
     margin-bottom: 4px;
     text-align: center;
@@ -387,7 +387,250 @@ body {
     margin-top: -20%;
     margin-left: 10%;
 }
-
+/* NAVBAR---------------------------------------------------------------------------- */
+nav {
+    font-family: 'Kanit', sans-serif;
+}
+.contentNavbar {
+    border: 0px;
+    padding: 0.6%;
+    background-color: hsl(250, 7%, 16%);
+    margin-top: -0.5%;
+    margin-left: -0.51%;
+    /* margin-right: -0.45%; */
+    display: flex;
+    align-items: center;
+    width: 99.45%;
+}
+/* ELEMENTI LINK */
+.component {
+    padding-left: 2.5%;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #b8add2;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #27262c;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.drpdwn {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #b8add2;
+}
+.trade-drpdwn:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+}
+.trade-drpdwn {
+    padding-left: 2.3%;
+    padding-top: 0.2%;
+}
+.dropdown {
+    border-radius: 15px;
+    width: 17%;
+    margin-left: -0.4%;
+}
+.drpdwn:hover {
+    background-color: #27262c;
+}
+/* SVG NAVBAR */
+.points-svg {
+    fill: #b8add2;
+    display: flex;
+    align-items: center;
+}
+.rabbit-svg {
+    fill: #39383f;
+}
+.pancakeswap {
+    width: 15%;
+    fill: white;
+}
+.svg-navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/* EVIDENZIATURA SULL'HOVER DEGLI ELEMENTI */
+.trade:hover, .earn:hover, .game:hover, .nft:hover {
+    background-color:  #39383f ;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: -5px; 
+    margin-right: -5px;
+}
+.drpdwn:hover {
+    background-color:  #39383f ;
+    opacity: 1;
+    border-radius: 10px;
+}
+/* LATO DESTRA */
+.component-otherSide {
+    display: flex;
+    width: 50%;
+    /* justify-content: space-between; */
+}
+/* TRANSITION RUBBIT CIRCLE ---------------------*/
+.navbar-circle:hover {
+    width: 28px;
+    transition: 0.3s ease;
+}
+.navbar-circle {
+    width: 24px;
+    margin-left: -4%;
+    position: absolute;
+}
+.dollar-navbar {
+    color: #b8add2;
+    font-weight: 600;
+    margin-left: -5%;
+}
+/* TRE SVG DOPO DOLLARI */
+.container-svg-right {
+    display: flex;
+    margin-left: 2%;
+    fill: #b8add2;
+}
+.svg-right{
+    padding-left: 20px;
+}
+.navbar-leng {
+    display: flex;
+    width: 24px;
+    fill: #b8add2;
+}
+.navbar-leng:hover, .impostazioni:hover{
+    fill: #827993;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.notifica {
+    cursor: pointer;
+}
+/* MENU TENDINA LINGUE */
+.leng-comp {
+    display: none;
+    position: absolute;
+    background-color: #27262c;
+    overflow-y: scroll;
+    height: 50%;
+    border-radius: 4px;
+}
+.leng-comp{
+    margin-left: -4%;
+    width: 13%;
+}
+.leng-comp::-webkit-scrollbar{
+    color: #b8add2;
+    width: 8px;
+    background-color:#35313c ;
+}
+.leng-comp::-webkit-scrollbar-thumb {
+    background-color: #888; /* Colore del pulsante di scorrimento */
+    border-radius: 5px;
+}
+.class-leng {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+    padding: 3px;
+    text-align: center;
+}
+.main-leng:hover .leng-comp {
+    display: flex;
+    flex-direction: column;
+}
+.main-leng {
+    padding-left: 2.3%;
+    padding-top: 0.2%;
+}
+.class-leng:hover {
+    color: #807992;
+}
+/* BNB IMG E MENU A TENDINA */
+.bnb-navbar {
+    margin-left: 20%;
+    margin-top: -2%;
+}
+.bnb-navbar-content{
+    background-color: #423e4b;
+    width: 150px;
+    margin-top: -1%;
+    border-radius: 15px;
+    display: flex;
+}
+.bnb-navbar-content:hover {
+    background-color: #4b455452;
+    opacity: 1;
+    cursor: pointer;
+}
+.text-bnb:hover{
+    color: rgba(255, 255, 255, 0.568);
+}
+.bnb-img {
+    display: flex;
+    width: 30px;
+    /* justify-content: center; */
+    /* margin-left: %; */
+}
+.bnb-text {
+    text-align: center;
+    padding-left: 4%;
+    margin-top: 1.2%;
+}
+.text-bnb {
+    font-weight: 600;
+    color:white;
+    font-size: 17px;
+}
+.text-bnb-media {
+    display: none;
+}
+.pointer-nb {
+    fill: white;
+    align-items: center;
+}
+/* BUTTON NAVBAR */
+.btn-div-nb {
+    padding-left: 7%;
+    display: flex;
+    margin-top: -0.5%;
+}
+.button-nb {
+    position: relative;
+    background-color:#1fc7d4;
+    color: #191326;
+    font-size: 16px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: 600;
+    align-items: center;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    font-family: inherit;
+    justify-content: center;
+    white-space: nowrap;
+    max-width: 100%;
+    width: auto;
+}
+.button-media {
+    display: none;
+}
+.button-nb:hover {
+    background-color: #147f86;
+    cursor: pointer;
+}
 @media screen and (min-width: 168px) and (max-width:568px) {
     .e {
         font-size: 40px;
@@ -431,7 +674,7 @@ body {
     .shaping {
         font-size: 20px;
     }
-    .pancakeswap {
+    .pancakeswap-home {
         font-size: 20px;
     }
     .tot-container {
@@ -550,6 +793,66 @@ body {
     width: 101.8%;
     margin-left: -1%;
     margin-right: -1%;
+}
+/* MEDIA NAVBAR */
+.contentNavbar {
+    border: 0px;
+    padding: 2%;
+    background-color: hsl(250, 7%, 16%);
+    margin-top: -2%;
+    margin-left: -1.2%;
+    /* margin-right: -0.45%; */
+    display: flex;
+    align-items: center;
+    width: 98.7%;
+}
+.svg-navbar > .pancakeswap{
+    display: none;
+}
+.pancakeswap{
+    display: flex;
+}
+.pancakeswap {
+    width: 185px;
+    margin-top: 5% ;
+}
+.trade-drpdwn {
+    display: none;
+}
+.navbar-circle, .dollar-navbar {
+    display: none;
+}
+.container-svg-right {
+    display: flex;
+    margin-top: 2%;
+    margin-left: -20%;
+    fill: #b8add2;
+}
+.bnb-navbar {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.bnb-navbar-content{
+    background-color: #423e4b;
+    width: 50px;
+    margin-top: 5%;
+    border-radius: 15px;
+    display: flex;
+}
+.text-bnb {
+    display: none;
+}
+.btn-div-nb {
+    padding-left: 7%;
+    display: flex;
+    margin-top: -0.5%;
+}
+.button-nb{
+    display: none;
+}
+.button-media{
+    display: flex;
+    margin-top: 4%;
 }
 }
 @media screen and (min-width:569px) and (max-width:1024px)  {
@@ -684,5 +987,57 @@ body {
 }
 .container-first { 
     width: 90%;
+}
+.contentNavbar {
+    border: 0px;
+    padding: 2%;
+    background-color: hsl(250, 7%, 16%);
+    margin-top: -1%;
+    margin-left: -1.2%;
+    /* margin-right: -0.45%; */
+    display: flex;
+    align-items: center;
+    width: 97.9%;
+    height: 3vh;
+}
+.svg-navbar > .pancakeswap{
+    display: none;
+}
+.pancakeswap{
+    display: flex;
+}
+.pancakeswap {
+    width: 200px;
+    position: absolute;
+    /* margin-right: -220%; */
+}
+.navbar-circle, .dollar-navbar {
+    display: none;
+}
+.text-bnb {
+    display: none;
+}
+.text-bnb-media {
+    display: flex;
+    font-weight: 600;
+    color:white;
+    font-size: 17px;
+}
+.bnb-navbar-content{
+    background-color: #423e4b;
+    width: 100px;
+    margin-top: -1%;
+    border-radius: 15px;
+    display: flex;
+}
+.trade-drpdwn {
+    margin-left: 5%;
+}
+.button-nb{
+    display: none;
+}
+.button-media{
+    display: flex;
+    margin-right: 35px;
 }
 }
