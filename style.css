@@ -178,6 +178,17 @@ html{
   color: white;
     margin-bottom: 20px;
 }
+@media screen and (max-width: 968px) {
+  .partner{
+    position: relative;
+    top: -28%;
+  }
+  .ecosistema{
+    position: relative;
+    left: 85%;
+    bottom: -70%;
+  }
+}
 .nomeSvg{
   display: flex;
     flex-direction: column;
@@ -196,6 +207,12 @@ html{
 
 }
 }
+@media screen and (max-width: 968px){
+  .lineaSepS{
+width: 0%;
+  }
+}
+
 .lineaSepD{
   position: absolute;
   width: 100%;
@@ -210,11 +227,22 @@ html{
 
 }
 }
+@media screen and (max-width: 968px){
+  .lineaSepD{
+  left: 0%;
+  }
+}
 .lineaSepSotto{
   position: absolute;
   width: 100%;
   height: 1px;
   background-color: rgb(168, 129, 252);
+}
+@media screen and (max-width: 968px){
+  .lineaSepSotto{
+    left: 0%;
+   
+  }
 }
 @media screen and (min-width: 968px){
   .lineaSepSotto{
@@ -222,7 +250,7 @@ html{
   height: 15%;
   bottom: auto;
  left: 50%;
- bottom: 0%;
+ bottom: -6%;
 }
 }
 .rettangoloEcosistema{
@@ -249,6 +277,12 @@ html{
     justify-content: center;
     margin-top: 10%;
 }
+@media screen and (max-width: 968px) {
+  .bloccoSvg{
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .nomeSvg2{
   width: 100%;
   display: flex;
@@ -266,8 +300,13 @@ html{
     transform: var(--transform);*/
     overflow: hidden;
     width: 100%;
-    mask-image: linear-gradient(to bottom, transparent, black 80px, black calc(100% - 80px), transparent);
+   
     align-items: center;
+  }
+  @media screen and (min-width: 968px) {
+    .rfm-marquee-container{
+    mask-image: linear-gradient(to bottom, transparent, black 80px, black calc(100% - 80px), transparent);
+    }
   }
 
 .rfm-marquee {
@@ -291,7 +330,7 @@ html{
  /* align-items: center;*/
   width: 100%;
 }
-.sc-kIJRjt{
+.bloccoSvgDaniel1{
   flex: 1;
   display: flex;
   justify-content: center;
@@ -309,6 +348,47 @@ html{
       transform: translateY(-100%);
   }
 }
+@media screen and (max-width: 968px) {
+ @keyframes scroll {
+    0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+  }
+  .rfm-marquee-container{
+    flex-direction: row;
+    position: absolute;
+    left: 0%;
+    mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+    
+  }
+  .rfm-initial-child-container{
+    flex-direction: row;
+  }
+  .rfm-marquee{
+    flex-direction: row;
+
+  }
+  .rettangoloEcosistema{
+    width: 100%;
+  }
+  .secCar{
+    position: relative;
+    top: -30%;
+    width: 350%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .priCar{
+  
+    bottom: -75%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
 .cFzdnc {
   display: flex;
   padding: 8px 16px;
@@ -316,7 +396,7 @@ html{
   align-items: center;
   gap: 8px;
   border-radius: 24px;
-  border: 1px solid #7a6eaab3;
+  border: 1px solid ;
   box-shadow: 0px 2px 0px 0px;
   box-sizing: border-box;
   height: 40px;
@@ -503,6 +583,11 @@ html{
   height: 600px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(151, 71, 255, 0.4) 0%, rgba(151, 71, 255, 0) 100%);
 }
+/*@media screen and (max-width: 968px) {
+  .rettangoloMoneta::before {
+   
+  }
+}*/
 .ivbptL {
   position: absolute;
   height: 128px;
@@ -533,12 +618,17 @@ html{
             transform: scaleX(1);
         }
     }
+    @media screen and (max-width: 968px) {
+      .ivbptL{
+        left: -50%;
+        position: relative;
+      }
+    }
     .iBJqlr {
       position: relative;
       height: 92px;
       width: 1px;
       left: 50%;
-      top: -92px;
       z-index: 2;
       transition: transform 0.35s ease-in-out 0s;
       transform-origin: center top;
@@ -555,6 +645,12 @@ html{
               transform: scaleX(0);
           }
       }
+      @media screen and (max-width: 968px){
+        .iBJqlr{
+          left: 0%;
+        top: -30.5%;
+        }
+      }
       .nomeSvg2 .sc-e359916b-4{
         transform: scaleY(1);
       }
@@ -562,4 +658,9 @@ html{
             .nomeSvg2 .sc-e359916b-4{
                 transform: scaleX(1);
             }
+        }
+        @media screen and (max-width: 968px) {
+          .nomeSvg2{
+            width: 100%;
+          }
         }
