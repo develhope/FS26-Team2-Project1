@@ -435,6 +435,8 @@ nav {
     border-radius: 15px;
     width: 17%;
     margin-left: -0.4%;
+    position: absolute;
+    z-index: 2;
 }
 .drpdwn:hover {
     background-color: #27262c;
@@ -522,6 +524,8 @@ nav {
     overflow-y: scroll;
     height: 50%;
     border-radius: 4px;
+    position: absolute;
+    z-index: 2;
 }
 .leng-comp{
     margin-left: -4%;
@@ -828,6 +832,18 @@ nav {
     margin-left: -20%;
     fill: #b8add2;
 }
+.leng-comp {
+    display: none;
+    position: absolute;
+    background-color: #27262c;
+    overflow-y: scroll;
+    height: 50%;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    margin-left: -8%;
+}
 .bnb-navbar {
     margin-left: 10%;
     margin-top: 2%;
@@ -1050,6 +1066,7 @@ nav {
     border: 0px solid;
     border-radius: 20px; 
     overflow: hidden;
+    position: relative;
     /* overflow: visible; */
   }
   .swiper-pagination{
@@ -1139,3 +1156,431 @@ nav {
     /* background-color: #ffc700; */
 }
 /* FINE PROVA BOZZA */
+/* FOOTER */
+/* Stili per il corpo della pagina */
+.body-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%; /* Per simulare il posizionamento del footer, da togliere nel progetto effettivo */
+    margin: 0;
+    padding-top:0;
+    font-family: "Kanit", sans-serif;
+}
+
+/* Personalizzazione della schrollbar fonte W3School */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #27262c; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b8add2;
+    border-radius: 20px; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b8add2;
+    border-radius: 20px; 
+  }
+
+/* Stili per il footer */
+footer {
+    background-color: #27262c;
+    color: #f4eeff;
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra gli elementi lungo l'asse principale */
+    align-items: center; /* Centra gli elementi lungo l'asse trasversale */
+    gap: 2rem;
+}
+/* Stili per ciascuna lista */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content; 
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap; 
+
+}
+
+/* Stili per i link */
+footer ul li a {
+    text-decoration: none;
+    color: #f4eeff;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #f4eeff;
+}
+/* Stili per il titolo del footer */
+.footer--title {
+    color: #a881fc;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*  margin-bottom: 20px;Aggiunge spazio sotto il titolo__ non serve */
+}
+
+
+
+/* Stili per le icone */
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+   /* margin-bottom: 20px;  Aggiunge spazio sotto l'insieme di icone__ non serve */
+}
+.footer-icons img {
+    width: 30px; /* Imposta la larghezza dell'icona */
+    height: auto; /* Imposta l'altezza in modo automatico per mantenere l'aspect ratio */
+}
+
+
+.footer_container_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;   
+    gap: 2px;
+}
+.footer_container_list--icons {
+    list-style-type: none;
+    display: flex;  
+    gap: 1rem;
+}
+
+/* Stili per il menÃ¹ delle lingue */
+.language-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.language-menu-content {
+    display: none;
+    position: absolute;
+    background-color: #27262c;
+    min-width: 160px;
+    max-height: 300px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    overflow-y: auto;
+    z-index: 1;
+    bottom: 25px;
+    padding: 15px;
+}
+
+.language-menu-content a {
+    color: #f4eeff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.language-menu-content a:hover {    
+    text-decoration: underline; 
+}
+.language-menu:hover .language-menu-content {
+    display: block;
+}
+
+.scrittapancka{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.cont-leng-checkbox {
+    display: flex;
+    order: 2;
+    align-items: center;
+}
+.container-checkbox {
+    align-items: center;
+    background-color: #666171;
+    border-radius: 24px;
+    /* box-shadow: inset 0px 2px 2px -1px rgba(74,74,104,.1) */
+    cursor: pointer;
+    display: inline-flex;
+    height: 32px;
+    position: relative;
+    transition: background-color 200ms ease 0s;
+    width: 58px;
+    margin-left: -100%;
+
+}
+.checkbox-theme{
+    cursor: pointer;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    -webkit-font-smoothing: antialiased;
+}
+input[type="checkbox" ] {
+    background-color: initial;
+    appearance: auto;
+    margin: 3px 3px 3px 4px;
+    display: none;
+}
+.checkbox-theme:checked, .div-cb-1 {
+    left: calc(100% - 30px);
+}
+.div-cb-1{
+    background-color: #27262c;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 26px;
+    position: absolute;
+    top: 3px;
+    transition: left 200ms ease-in 0s;
+    width: 26px;
+    z-index: 1;
+}
+.div-cb-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moon1 {
+    align-self: center;
+    fill: #a881fc;
+    color: #a881fc;
+    flex-shrink: 0;
+    margin-top: 8%;
+}
+@supports(-webkit-text-size-adjust:none) and (not (-ms-accelerator:true)) and (not (-moz-appearance:none)){
+     .drEBnz {
+        filter: none;
+     }
+}
+.div-cb-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.sole, .moon2 {
+    align-self: center;
+    fill: #27262c;
+    color: #27262c;
+    z-index: 0;
+}
+.cont-main-cb {
+    display: flex;
+    align-items: center;
+}
+.main-cont-cb {
+    display: flex;
+    justify-content: space-between;
+    order: 1;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50%;
+    margin-left: -75%;
+}
+.world-cont-foot {
+    display: flex;
+    align-content: center;
+    flex-direction: row ;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.wolrd-leng-foot{
+    fill: #a881fc;
+    cursor: pointer;
+}
+.en  {
+    color: #a881fc;
+    text-decoration: none;
+}
+.main-right-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 1;
+    margin-left: 55%;
+    position: absolute;
+}
+.conteiner-right-foot{
+    margin-right: 20%;
+}
+.dolar-foo{
+    margin-top: -4%;
+    font-weight: 600;
+    color: #b392fc;
+    margin-left: -15%;
+}
+.svg-footer-crcl:hover {
+    width: 28px;
+    transition: 0.5s;
+    margin-left: -5%;
+}
+.btn-footer {
+    display: flex;
+    position: relative;
+    background-color:#1fc7d4;
+    color: #191326;
+    font-size: 16px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: 600;
+    align-items: center;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    font-family: inherit;
+    justify-content: center;
+    white-space: nowrap;
+    max-width: 100%;
+    width: auto;
+}
+.btn-footer:hover {
+    background-color: #147f86;
+    cursor: pointer;
+}
+.svg-btn-foot {
+    fill: #191326;
+
+}
+.btn-footer-container{
+    padding-left: 10%;
+    margin-top: -3%;
+}
+/* MENU LINGUA A TENDINA */
+.leng-comp-footer {
+    display: none;
+    position: absolute;
+    background-color: #27262c;
+    overflow-y: scroll;
+    height: 40%;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    bottom: 9%;
+}
+.leng-comp-footer{
+    margin-left: -4%;
+    width: 13%;
+}
+.leng-comp-footer::-webkit-scrollbar{
+    color: #b8add2;
+    width: 8px;
+    background-color:#35313c ;
+}
+.leng-comp-footer::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+.wolrd-leng-foot:hover .leng-comp-footer {
+    display: flex;
+    flex-direction: column;
+}
+.wolrd-leng-foot {
+    padding-left: 2.3%;
+    padding-top: 0.2%;
+}
+.class-leng-footer{
+    text-align: center;
+    font-weight: 600;
+}
+.class-leng-footer:hover {
+    color: #807992;
+    text-decoration: none;
+}
+/* MENU A TENDINA LINGUE FINE */
+.line-separated{
+    border: 1px solid #423e4b ;
+    width: 60%;
+    margin-top: 1%;
+    position: absolute;
+}
+.container-line-ft {
+    display: flex;
+    width: 100%;
+}
+
+.leng-comp-telegram {
+    display: none;
+    position: absolute;
+    background-color: #27262c;
+    overflow-y: scroll;
+    height: 150%;
+    /* padding-left: 100%; */
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    bottom: 100%;
+}
+.leng-comp-telegram{
+    margin-left: -20%;
+    height: 250%;
+    /* padding-left: -10%; */
+}
+.leng-comp-telegram::-webkit-scrollbar{
+    color: #b8add2;
+    width: 8px;
+    background-color:#35313c ;
+}
+.leng-comp-telegram::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+.tele-paesi-foot:hover .leng-comp-telegram {
+    display: flex;
+    flex-direction: column;
+}
+.tele-paesi-foot {
+    padding-left: 2.3%;
+    padding-top: 0.2%;
+}
+.class-leng-telegram{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.class-leng-telegram:hover {
+    color: #807992;
+    text-decoration: none;
+}
+/* FINE FOOTER */
+@media screen and (min-width: 168px) and (max-width:568px){
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* height: 40%; */
+        margin: 0;
+        padding-left: 25%;
+        padding-top: 10%;
+        /* width: 70%; */
+        width: 56%;
+        font-family: "Kanit", sans-serif;
+        overflow-x: hidden;
+    }
+    .conteiner-right-foot{
+        margin-top: 100%;
+    }
+    .line-separated {
+        display: none;
+    }
+    .btn-footer-container{
+    display: none;
+    }
+    .main-right-foot{
+        display: none;
+    }
+}
