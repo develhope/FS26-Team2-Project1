@@ -1,10 +1,12 @@
-
+#home-4{
+  background-color: #08060b;
+}
 .headCake{
   font-family: sans-serif;
-  font-weight: bold;
   font-size: 100%;
-  font-weight: 600;
   font-weight: bolder;
+  background-color: #08060b;
+  margin-top: -5%;
 }
 
 .calcoloDiGuadagno {
@@ -43,12 +45,14 @@
     font-size: 24px;
     margin-bottom: 2%;
   }
-  .cake{
+  .cakeD{
     display: inline-flex;
-    font-size: 32px;
+    font-size: 34px;
+    color: rgb(168, 129, 252)
   }
   .titleCake{
-    font-size: 32px;
+    font-size: 20px;
+    
   }
   .bloccaCAKE{
     border-radius: 16px;
@@ -337,7 +341,7 @@ width: 0%;
   animation-play-state: var(--play);
   animation-delay: var(--delay);
   animation-direction: var(--direction);*/
-  animation: scroll 15s linear infinite;
+  animation: moveVertical 15s linear infinite;
 }
 .rfm-initial-child-container {
  /* flex: 0 0 auto;*/
@@ -357,7 +361,7 @@ width: 0%;
   background-color: #27262c;
   border-color: #7a6eaab3;
 }
-@keyframes scroll {
+@keyframes moveVertical {
   0% {
       transform: translateY(0);
   }
@@ -366,7 +370,7 @@ width: 0%;
   }
 }
 @media screen and (max-width: 968px) {
- @keyframes scroll {
+ @keyframes moveVertical {
     0% {
       transform: translateX(0);
   }
@@ -596,12 +600,13 @@ width: 0%;
 .rettangoloMoneta::before {
   content: "";
   position: absolute;
-  top: 80%;
+  margin-top: 14%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 600px;
   height: 600px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(151, 71, 255, 0.4) 0%, rgba(151, 71, 255, 0) 100%);
+
 }
 @media screen and (max-width: 968px) {
   .rettangoloMoneta::before {
@@ -614,7 +619,6 @@ width: 0%;
   height: 128px;
   width: 1px;
   left: 50%;
-  top: 275px;
   background: rgb(168, 129, 252);
   transition: transform 0.35s ease-in-out 0s;
   transform: scaleY(0);
@@ -623,12 +627,12 @@ width: 0%;
 }
 @media screen and (min-width: 968px) {
       .ivbptL {
-          width: 125px;
-          height: 1px;
-          left: 532px;
-          top: 78%;
-          transform: scaleX(0);
-          transform-origin: right center;
+        width: 125px;
+        height: 1px;
+        left: 534px;
+        margin-top: 113px;
+        transform: scaleX(0);
+        transform-origin: right center;
       }
   }
   .ivbptL.show {
@@ -685,7 +689,6 @@ width: 0%;
             width: 100%;
           }
         }
-=======
 body {
     background-color: #21193a; 
     font-family: 'Kanit', sans-serif;
@@ -2272,13 +2275,13 @@ input[type="checkbox" ] {
         display: none;
     }
 }
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0px;
     padding: 0px;
     border: 0px;
     font-size: 100%;
     vertical-align: baseline;
-  }
+  }*/
   
   .ecosvg {
     align-self: center;
@@ -2298,21 +2301,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-left: 20%;
   }
   
-  body img {
+  /*body img {
     height: auto;
     max-width: 100%;
-  }
+  }*/
   
-  img {
+  /*img {
     overflow-clip-margin: content-box;
     overflow: clip;
-  }
+  }*/
   
   * {
     font-family: "Kanit", sans-serif;
   }
   
-  *,
+  /**,
   ::before,
   ::after {
     box-sizing: border-box;
@@ -2330,7 +2333,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   div {
     display: block;
     unicode-bidi: isolate;
-  }
+  }*/
   
   element.style {
     margin: 0px;
@@ -2382,10 +2385,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: #f4eeff;
   }
   
-  img {
+ /* img {
     overflow-clip-margin: content-box;
     overflow: clip;
-  }
+  }*/
   
   .ecosy-back {
     background: #08060b;
