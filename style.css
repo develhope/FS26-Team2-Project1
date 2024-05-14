@@ -94,6 +94,13 @@ html{
  align-items: center;
  justify-content: center;
 }
+@media screen and (max-width: 968px) {
+  .calcoloDiGuadagno{
+    flex-flow: wrap;
+    margin: 15px;
+    width: 100%;
+  }
+}
 .buyCake{
   border-radius: 16px;
   align-items: center;
@@ -185,8 +192,9 @@ html{
   }
   .ecosistema{
     position: relative;
-    left: 85%;
-    bottom: -70%;
+    left: 83%;
+    bottom: -30%;
+    width: 8%;
   }
 }
 .nomeSvg{
@@ -240,7 +248,10 @@ width: 0%;
 }
 @media screen and (max-width: 968px){
   .lineaSepSotto{
-    left: 0%;
+    position: relative;
+    width: 339.5%;
+    left: -120%;
+    top: -350px;
    
   }
 }
@@ -373,6 +384,7 @@ width: 0%;
   }
   .rettangoloEcosistema{
     width: 100%;
+    height: auto;
   }
   .secCar{
     position: relative;
@@ -383,7 +395,7 @@ width: 0%;
   }
   .priCar{
   
-    bottom: -75%;
+    bottom: -35%;
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -583,11 +595,11 @@ width: 0%;
   height: 600px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(151, 71, 255, 0.4) 0%, rgba(151, 71, 255, 0) 100%);
 }
-/*@media screen and (max-width: 968px) {
+@media screen and (max-width: 968px) {
   .rettangoloMoneta::before {
-   
+   top: 100%;
   }
-}*/
+}
 .ivbptL {
   position: absolute;
   height: 128px;
