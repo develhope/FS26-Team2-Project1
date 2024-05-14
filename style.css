@@ -8,6 +8,9 @@ html{
   font-weight: 600;
   font-weight: bolder;
 }
+@media {
+  
+}
 .calcoloDiGuadagno {
     float: left;
     width: 50%;
@@ -153,6 +156,12 @@ html{
   left: 50%;
   transform: translate(-50%, -50%) scale(0.65);
   background-color: transparent;
+  z-index: 9999;
+}
+@media screen and (max-width: 968px) {
+  .moneta{
+    width: 400%;
+  }
 }
 .svgMoneta{
  position: relative;
@@ -292,6 +301,7 @@ width: 0%;
   .bloccoSvg{
     flex-direction: column;
     align-items: center;
+    margin-top: -10%;
   }
 }
 .nomeSvg2{
@@ -331,7 +341,7 @@ width: 0%;
   animation-play-state: var(--play);
   animation-delay: var(--delay);
   animation-direction: var(--direction);*/
-  animation: scroll 12s linear infinite;
+  animation: scroll 15s linear infinite;
 }
 .rfm-initial-child-container {
  /* flex: 0 0 auto;*/
@@ -392,6 +402,7 @@ width: 0%;
     width: 350%;
     display: flex;
     justify-content: flex-end;
+  
   }
   .priCar{
   
@@ -399,6 +410,7 @@ width: 0%;
     position: relative;
     display: flex;
     justify-content: flex-end;
+   
   }
 }
 .cFzdnc {
