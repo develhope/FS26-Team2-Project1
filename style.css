@@ -8,9 +8,7 @@ html{
   font-weight: 600;
   font-weight: bolder;
 }
-@media {
-  
-}
+
 .calcoloDiGuadagno {
     float: left;
     width: 50%;
@@ -610,6 +608,7 @@ width: 0%;
 @media screen and (max-width: 968px) {
   .rettangoloMoneta::before {
    top: 100%;
+  margin-top: -65%;
   }
 }
 .ivbptL {
