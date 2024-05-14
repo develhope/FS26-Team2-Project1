@@ -254,6 +254,7 @@ width: 0%;
   width: 100%;
   height: 1px;
   background-color: rgb(168, 129, 252);
+  display: none;
 }
 @media screen and (max-width: 968px){
   .lineaSepSotto{
@@ -382,7 +383,7 @@ width: 0%;
     flex-direction: row;
     position: absolute;
     left: 0%;
-    mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+    mask-image: linear-gradient(to left, transparent, black 80px, black calc(100% - 80px), transparent);
     
   }
   .rfm-initial-child-container{
@@ -606,12 +607,11 @@ width: 0%;
   width: 600px;
   height: 600px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(151, 71, 255, 0.4) 0%, rgba(151, 71, 255, 0) 100%);
-
 }
 @media screen and (max-width: 968px) {
   .rettangoloMoneta::before {
    top: 100%;
-  margin-top: -65%;
+  margin-top: 1335%;
   }
 }
 .ivbptL {
@@ -2380,7 +2380,6 @@ input[type="checkbox" ] {
     margin-top: 48px;
     margin-left: 20%;
   }
-  
   * {
     color: #f4eeff;
   }
@@ -2407,7 +2406,6 @@ input[type="checkbox" ] {
     padding: 4px;
     width: 141.6px;
     height: 286px;
-  
   }
   
   .all-encasing {
@@ -2635,4 +2633,73 @@ input[type="checkbox" ] {
     .ecoSection {
       padding: 12px;
     }
+  }
+  @media screen and (min-width: 168px) and (max-width:568px){
+    .ecosy {
+      margin-left: -4.5%;
+      width: 97%;
+      height: 220vh;
+      /* display: flex; */
+      /* flex-direction: column; */
+      overflow-x: hidden;
+    }
+    .all-encasing{
+      display: flex;
+      flex-direction: column;
+    }
+    .main-clss, .ecotext, .ecosvg{
+      align-content: center;
+      margin-left: -5%;
+    }
+    .eco-tp {
+      padding-left: 6%;
+    }
+    .trade-bunny{
+      position: relative;
+      margin-top: -240%;
+      /* margin-right: -100%; */
+    }
+    .trade-bunny2{
+      position: relative;
+      margin-top: -300%;
+      margin-right: 100%;
+    }
+    .pc-bunny{
+      position: relative;
+      margin-top: -240%;
+      margin-left: 80%;
+    }
+    .eco-tre {
+      margin-top: 20%;
+      gap: 10px;
+    }
+    .eco-second {
+      margin-top: -50%;
+      height: 20vh;
+    }
+    .ecosybox {
+      margin-top: -250%;
+      height: 50vh;
+    }
+    .ecosybox-sub {
+      /* flex-wrap: nowrap; */
+      /* display: flex; */
+      width: 100%;
+    }
+    /* .ecosybox{
+      display: flex;
+      flex-direction: row;
+    } */
+    .ecoSection {
+      /* flex: 1 0 10%; */
+    }
+    .ecoSection, .type-a {
+      flex-basis: 20%;
+      /* flex-direction: column; */
+
+    }
+
+  }
+  @media screen and (min-width: 569px) and (max-width:1024px) {
+
   }
