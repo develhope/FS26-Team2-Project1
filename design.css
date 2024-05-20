@@ -1,17 +1,35 @@
 html{
     background-color: #b8add2;
 }
-article{
+
+.element {
     padding: 100px;
     margin: 10px;
     display: flex;
-    float: left;
-    flex-basis: 400px;
+    /* float: left; */
+    flex-basis: 375px;
      background-color: white;   
      position: relative;
      border-radius: 20px;
-     max-width: 1000px;
+     max-width: 375px;
 
+}
+
+.bunny-img{
+    width: 92px;
+    height: 67px;
+}
+
+.phish-img {
+    width: 92px;
+    height: 67px;
+    margin-left: 20px;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
 }
 section{
     display: flex;
@@ -19,17 +37,21 @@ section{
     flex-wrap: wrap; 
     justify-content: center;      
 }
+
 .logo{
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;
     max-height: 400px;
 }
+
 .button{
     display: flex;
     max-width: 300px;
-    max-height: 250px;
+    max-height: 170px;
+    padding: 90px;
 }
+
 button{
     padding: 5px;
     margin: 5px;
@@ -39,71 +61,94 @@ button{
     max-width: 150px;
     max-height: 100px;
 }
+
 .color{
 display: flex;
 max-height: 300px;
 }
-.typography{
+
+.typography {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    font-family:'Kanit', sans-serif;
-    width: 30%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr);
+    font-family:'Kanit';
+    width: 90%;
     font-size: 18px;
     text-align: center;
+    padding: 30px;
 }
-nav {
+/* nav {
     font-size: inherit;
     border: 1px solid;
     border-radius: 20px;
     padding: 10px;
     background-color: #f4eeff;
     margin: 10px;
-}
-.nav{
-    font-size: inherit;
+} */
+
+.nav {
     border: 1px solid;
     border-radius: 20px;
     background-color:  #f4eeff;
     margin: 15px;
     padding: 10px;
+    line-height: 15px;
 }
-.tipography > p {
+/* .typography > p {
     font-weight: 600;
     color: red;
-}
-main {
+} */
+
+.main {
     border: 1px solid;
     border-radius: 20px;
     padding: 10px;
     background-color:  #f4eeff;
     margin: 15px;
+    line-height: 15px;
 }
-.a {
+
+.eco {
     border: 1px solid;
     border-radius: 20px;
     padding: 10px;
     background-color:  #f4eeff;
     margin: 15px;
+    line-height: 15px;
 }
-.b{
+
+.cake {
     border: 1px solid;
     border-radius: 20px;
     padding: 10px;
     background-color:  #f4eeff;
     margin: 15px;
+    line-height: 15px;
 }
-.c{
+
+.community {
     border: 1px solid;
     border-radius: 20px;
     padding: 10px;
     background-color:  #f4eeff;
     margin: 15px;
+    line-height: 10px;
 }
+
+.footer {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #f4eeff;
+    margin: 15px;
+    line-height: 15px;
+}
+
 em {
     color: #191326;
     font-weight: 400;
 }
+
 b {
     text-transform: uppercase;
     text-decoration: overline;
@@ -112,8 +157,10 @@ b {
     position: absolute;
     top: 10px;
     left: 10px;
-    font-family: "kanit";-
+    font-family: "kanit";
+    margin-left: 38%;
 }
+
 .get-started {
     background-color: #1fc7d4;
     color: #FFFF;
@@ -215,11 +262,11 @@ b {
 
 .footer_container_list--icons {
     list-style-type: none;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    justify-content: left;
+    justify-content: left; */
 }
 
 /* Stili per il titolo "Icons" /
@@ -231,7 +278,6 @@ b {
 .footer-icons {
     list-style-type: none;
     display: flex;
-    gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -239,6 +285,11 @@ b {
 .footer-icons img {
     width: 30px;
 }
+
+.img--icon {
+    padding: 10px;
+}
+
 .colors {
     display: flex;
     justify-content: space-around;
