@@ -1748,105 +1748,6 @@ nav {
     margin-right: 35px;
 }
 }
-/* PROVA SWIPER */
-.swiper-container {
-    width: 100%; /* Imposta la larghezza dello swiper */
-    max-width: 900px; /* Imposta la larghezza massima dello swiper */
-    height: 25vh;
-    margin: 0 auto;
-    border: 0px solid;
-    border-radius: 20px; 
-    overflow: hidden;
-    position: relative;
-    /* overflow: visible; */
-  }
-  .swiper-pagination{
-    display: none;
-  }
-  .main-swiper{
-    padding-top: 5%;
-  }
-  .container-swp-1{
-    width: 100%;
-    background-image: url("https://assets.pancakeswap.finance/web/banners/multichain/bg-desktop.png");
-    background-repeat: no-repeat;
-    background-size: auto 100%; 
-    background-position: right;
-    background-color: hsla(211, 100%, 60%, 0.753);
-  }
-  .content-swiper{
-    width: 100%;
-  }
-.svg-swiper-ps {
-    position: absolute;
-    width: 15%;
-    margin-left: 3%;
-    margin-top: 1.5%;
-    fill: white;
-}
-  .swiper-slide-1 {
-    display: flex;
-    font-size: 18px;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 900;
-    text-shadow: #FFB327;
-    flex-direction: column;
-  }
-.container-pmc > .pmc {
-    display: flex;
-    flex-direction: column;
-    font-size: 27px;
-    margin-top: 9%;
-    margin-left: 6%;
-    padding: -1%;
-    line-height: 1.1;
-    color:#FFB327;
-    text-shadow: 
-    -1px -1px 0 rgb(128, 42, 33),
-     1px -1px 0 rgb(128, 42, 33),
-    -1px  1px 0 rgb(128, 42, 33),
-     1px  1px 0 rgb(128, 42, 33);
-}
-.pmc, .sm1oip{
-    white-space: nowrap;
-}
-.container-pmc > .sm1oip {
-    margin-left: 6%;
-    font-weight: 600;
-    font-family: 'Kanit', sans-serif;
-    color: white;
-}
-.container-pmc {
-    padding:4%;
-}
-.part1 {
-    margin-left: 10%;
-    color: white;
-    font-weight: 500;
-    display: flex;
-}
-.cont-freccia {
-    margin-top: 1.2%;
-    padding-left: 1%;
-    fill: white;
-}
-.svg-swiper-ps-2 {
-    position: absolute;
-    width: 15%;
-    margin-left: 68%;
-    margin-top: 1.5%;
-    fill: black;
-}
-.jtmtc, .win7 {
-    margin-left: 68%;
-}
-.swiper-slide-2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    /* background-color: #ffc700; */
-}
-/* FINE PROVA BOZZA */
 /* FOOTER */
 /* Stili per il corpo della pagina */
 .body-footer {
@@ -2114,7 +2015,8 @@ input[type="checkbox" ] {
     margin-left: -15%;
 }
 .svg-footer-crcl:hover {
-    width: 28px;
+    /* width: 28px; */
+    transform: scale(1.2);
     transition: 0.5s;
     margin-left: -5%;
 }
@@ -2249,6 +2151,9 @@ input[type="checkbox" ] {
 }
 /* FINE FOOTER */
 @media screen and (min-width: 168px) and (max-width:568px){
+  body {
+    overflow-x: hidden;
+}
     footer {
         display: flex;
         flex-direction: row;
@@ -2690,9 +2595,9 @@ input[type="checkbox" ] {
       display: flex;
       flex-direction: row;
     } */
-    .ecoSection {
-      /* flex: 1 0 10%; */
-    }
+    /* .ecoSection {
+      flex: 1 0 10%;
+    } */
     .ecoSection, .type-a {
       flex-basis: 20%;
       /* flex-direction: column; */
@@ -2703,3 +2608,318 @@ input[type="checkbox" ] {
   @media screen and (min-width: 569px) and (max-width:1024px) {
 
   }
+  /* SWIPER SOTTO NAVBRA----------------------------------- */
+  .swiper-main-content {
+    width: 100%; 
+    max-width: 1200px; 
+    height: 25vh;
+    margin: 0 auto;
+    border: 0px solid;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    padding-top: 6%;
+}
+.swiper-container {
+    width: 80%;
+    /* max-width: 800px; */
+    height:25vh;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.swiper-wrapper {
+    display: flex;
+}
+.swiper-slide {
+    background-color: #2A2A2A;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.slide-content {
+    max-width: 500px;
+}
+.slide-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.slide-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.slide-link {
+    text-decoration: none;
+}
+/* 1-----------------------------------------1 */
+.slide-1{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/multichain/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%; 
+    background-position: right;
+    background-color: hsla(211, 100%, 60%, 0.753);
+}
+.title-1 {
+    text-shadow: rgb(128, 42, 33) -2px 2px 0px, rgb(128, 42, 33) 2px 2px 0px, rgb(128, 42, 33) 2px -2px 0px, rgb(128, 42, 33) -2px -2px 0px;
+    margin-left: -13%;
+    color:#FFB327;
+    text-shadow: 
+    -1px -1px 0 rgb(128, 42, 33),
+     1px -1px 0 rgb(128, 42, 33),
+    -1px  1px 0 rgb(128, 42, 33),
+     1px  1px 0 rgb(128, 42, 33);
+}
+.text-1 {
+    margin-left: -40%;
+    font-weight: 600;
+}
+.link-1 {
+    text-decoration: none;
+    color: white;
+    margin-left: -73%;
+}
+/* 2---------------------------------------------2 */
+.slide-2{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/masa-trading-competition/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%; 
+    background-position: right;
+    background-color: #fac054;
+    ;
+}
+.title-2 {
+    margin-left: -20%;
+    color: rgb(118, 69, 217);
+    text-shadow: rgb(255, 255, 255) -2px 2px 0px, rgb(255, 255, 255) 2px 2px 0px, rgb(255, 255, 255) 2px -2px 0px, rgb(255, 255, 255) -2px -2px 0px;
+}
+.text-2 {
+    color: rgb(37, 1, 37);
+    font-weight: 600;
+    margin-left: -69%;
+}
+.link-2 {
+    color: rgb(37, 1, 37);
+    margin-left: -80%;
+    font-weight: 600;
+}
+/* 3---------------------------------3 */
+.slide-3{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/options/bg-mobile.png");
+    background-repeat: no-repeat;
+    /* background-size: auto 100%;  */
+    background-position: right;
+    background-color:  rgb(52, 33, 52);;
+}
+.title-3 {
+    text-shadow: rgb(128, 42, 33) -2px 2px 0px, rgb(128, 42, 33) 2px 2px 0px, rgb(128, 42, 33) 2px -2px 0px, rgb(128, 42, 33) -2px -2px 0px;
+    color:#FFB327;
+    text-shadow: 
+    -1px -1px 0 rgb(128, 42, 33),
+     1px -1px 0 rgb(128, 42, 33),
+    -1px  1px 0 rgb(128, 42, 33),
+     1px  1px 0 rgb(128, 42, 33);
+     font-size: 20px;
+     width: 90%;
+     text-align: left;
+}
+.text-3 {
+    color: rgb(37, 1, 37);
+    font-weight: 600;
+    margin-left: -69%;
+    /* margin-left: -90%; */
+    display: none;
+}
+.link-3cont {
+    margin-top: 7%;
+    margin-left: 2%;
+}
+.link-3 {
+    border: 0px solid;
+    background-color: rgb(70, 255, 255);
+    border-radius: 13px;
+    padding: 4px 20px;
+    color: rgb(37, 1, 37);
+    margin-left: -80%;
+    font-weight: 600;
+}
+/* 4-------------------------------------------------------------4 */
+.slide-4{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/vecake/bg-mobile.png");
+    background-repeat: no-repeat;
+    /* background-size: auto 100%;*/
+    background-position: right;
+    background-color: #42f2ff;
+    ;
+}
+.title-4 {
+    text-shadow: rgb(128, 42, 33) -2px 2px 0px, rgb(128, 42, 33) 2px 2px 0px, rgb(128, 42, 33) 2px -2px 0px, rgb(128, 42, 33) -2px -2px 0px;
+    color:#FFB327;
+    text-shadow: 
+    -1px -1px 0 rgb(67, 36, 219),
+     1px -1px 0 rgb(67, 36, 219),
+    -1px  1px 0 rgb(67, 36, 219),
+     1px  1px 0 rgb(67, 36, 219);
+     font-size: 20px;
+     width: 90%;
+     text-align: left;
+}
+.text-4 {
+    color: rgb(37, 1, 37);
+    font-weight: 600;
+    margin-left: -32%;
+}
+.link-4 {
+    color: rgb(37, 1, 37);
+    margin-left: -83%;
+    font-weight: 600;
+}
+/* 5---------------------------------------------------5 */
+.slide-5{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/v4-info/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%; 
+    background-position: right;
+    background-color: #bfdeff;
+    ;
+}
+.title-5 {
+    margin-left: -15%;
+    margin-top: 2%;
+    color: rgb(118, 69, 217);
+    text-shadow: rgb(255, 255, 255) -2px 2px 0px, rgb(255, 255, 255) 2px 2px 0px, rgb(255, 255, 255) 2px -2px 0px, rgb(255, 255, 255) -2px -2px 0px;
+}
+.link-5 {
+    color: rgb(37, 1, 37);
+    margin-left: -73%;
+    font-weight: 600;
+    border: 0px solid;
+    background-color: rgb(187, 153, 255);
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+}
+.link-5cont {
+    padding-top: 5%;
+}
+/* 6---------------------------------------------------------6 */
+.slide-7{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/top-traders/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%; 
+    background-position: right;
+    background-color: #bfdeff;
+}
+.title-7 {
+    margin-left: -24%;
+    font-size: 22px;
+    margin-top: 2%;
+    color: rgb(118, 69, 217);
+    text-shadow: rgb(255, 255, 255) -2px 2px 0px, rgb(255, 255, 255) 2px 2px 0px, rgb(255, 255, 255) 2px -2px 0px, rgb(255, 255, 255) -2px -2px 0px;
+}
+.link-7 {
+    color: rgb(118, 69, 217);
+    font-weight: 600;
+    margin-left: -85%;
+}
+.link-7cont {
+    padding-top: 10%;
+}
+@media screen and (min-width: 168px) and (max-width:568px){
+  .slide-1{
+    width: 100%;
+    background-size: auto 60%; 
+    background-position:bottom right;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/multichain/bg-desktop.png");
+  }
+  .title-1 {
+    font-size: 19px;
+    margin-left: -4%;
+  }
+  .text-1 {
+    font-size: 11.5px;
+  }
+  .link-1{
+    font-size: 11.5px;
+  }
+  .slide-2{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/masa-trading-competition/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto 60%; 
+    background-position: bottom right;
+  }
+  .title-2{
+    font-size: 17px;
+  }
+  .text-2 {
+    font-size: 12.5px;
+  }
+  .link-2{
+    font-size: 13.5px;
+  }
+  .slide-3 {
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/options/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: auto 70%; 
+    background-position: bottom right;
+  }
+  .link-3cont {
+    margin-top: 7%;
+    margin-left: 8%;
+  }
+  .slide-4 {
+    background-image: url("https://assets.pancakeswap.finance/web/banners/vecake/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: bottom right;
+  }
+  .text-4{
+    width: 70%;
+    margin-left: 0%;
+    text-align: left;
+  }
+  .link-4{
+    margin-left: -78%;
+  }
+  .slide-5{
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/v4-info/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto 60%; 
+    background-position: bottom right;
+  }
+  .title-5 {
+    font-size: 18px;
+    margin-left: -7%;
+  }
+  .link-5cont {
+    margin-left: 6%;
+  }
+  .slide-7 {
+    width: 100%;
+    background-image: url("https://assets.pancakeswap.finance/web/banners/top-traders/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto 70%; 
+    background-position:bottom right;
+  }
+  .title-7 {
+    font-size: 17px;
+    margin-left: -17%;
+  }
+}
